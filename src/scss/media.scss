@@ -1,0 +1,170 @@
+@media (min-width: 2500px) {
+}
+
+@media (min-width: 1400px) and (max-width: 2499px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1399px) {
+  .header {
+    &__logo {
+      left: 50px;
+    }
+  }
+
+  .nav {
+    right: 50px;
+  }
+
+  .card-list {
+    &__wrappar {
+      width: 900px;
+      grid-template-columns: repeat(3, 274px);
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    &__logo {
+      left: 30px;
+    }
+    &__image {
+      img {
+        height: 400px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .nav {
+    right: 0px;
+  }
+
+  .card-list {
+    &__wrappar {
+      width: 580px;
+      grid-template-columns: repeat(2, 274px);
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .header {
+    &__logo {
+      top: 40px;
+      left: 10px;
+    }
+    &__logo-image {
+      width: 130px;
+    }
+    &__title {
+      font-size: 32px;
+    }
+    &__subtitle {
+      font-size: 14px;
+    }
+    &__subtract {
+      display: none;
+    }
+    &__button {
+      font-size: 18px;
+    }
+    &__image {
+      img {
+        height: 400px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .nav {
+    right: 10px;
+    width: 404px;
+    &__link {
+      font-size: 13px;
+    }
+  }
+
+  .card-list {
+    &__wrappar {
+      width: 280px;
+      grid-template-columns: repeat(1, 274px);
+    }
+  }
+
+  .footer {
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    &__logo {
+      top: 40px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &__logo-image {
+      width: 130px;
+    }
+    &__title {
+      top: 300px;
+      font-size: 24px;
+      width: 230px;
+    }
+    &__subtitle {
+      top: 380px;
+      font-size: 14px;
+      width: 360px;
+    }
+    &__subtract {
+      display: none;
+    }
+    &__button {
+      top: 510px;
+      font-size: 18px;
+    }
+    &__image {
+      img {
+        height: 600px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .nav {
+    top: 162px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    &__list {
+      justify-content: center;
+      align-items: space-between;
+      flex-direction: column;
+    }
+    &__link {
+      font-size: 15px;
+      line-height: 40px;
+    }
+  }
+
+  .card-list {
+    &__wrappar {
+      width: 280px;
+      grid-template-columns: repeat(1, 274px);
+    }
+  }
+
+  .footer {
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    &__subtitle {
+      font-size: 13px;
+      width: 300px;
+    }
+  }
+}

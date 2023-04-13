@@ -1,0 +1,43 @@
+.footer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 135px;
+  font-size: 14px;
+  width: 100%;
+  height: 62.78px;
+  background: #2c313a;
+  &__left {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+
+    &__copy {
+      margin: 0;
+    }
+  }
+
+  &__right {
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    &__item {
+      &__link {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

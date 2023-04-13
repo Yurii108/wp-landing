@@ -1,0 +1,62 @@
+/* 
+Theme Name: WP Lending
+Author: Yurii
+Author URI: https://google.com
+Description: Test
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');  
+/* Apply a global box-sizing value of border-box to all elements */
+
+#more {
+  display: none;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Apply default margin and padding of 0 to all elements */
+  html, body {
+    
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* Set a base font size and font family for the website */
+  html {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Set default text color and background color */
+  /* body {
+    color: #333;
+    background-color: #fff;
+  } */
+  
+  /* Define a container element with a max-width and center it on the page */
+  /* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  } */
+  
+  /* Define a utility class to display an element as a block and center it horizontally */
+  /* .text-center {
+    display: block;
+    text-align: center;
+  } */
+  
+  /* Define a utility class to hide an element visually */
+  /* .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  } */
+  

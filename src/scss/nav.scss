@@ -1,0 +1,32 @@
+.nav {
+  position: absolute;
+  right: 172px;
+  top: 42px;
+  width: 464px;
+  right: 139px;
+  z-index: 1;
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+    margin: 0 10px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}

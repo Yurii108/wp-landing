@@ -1,0 +1,68 @@
+.header {
+  &__content {
+    position: relative;
+  }
+  &__logo {
+    position: absolute;
+    top: 34px;
+    left: 139px;
+  }
+  &__title {
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 108.95%;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__subtitle {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140.76%;
+    width: 461.68px;
+    height: 68px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+  }
+  &__subtract {
+    position: absolute;
+    top: 256px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &__button {
+    position: absolute;
+    top: 337px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 165px;
+    height: 50px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150.68%;
+    color: #ffffff;
+    background: #931430;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+  }
+  &__image {
+    img {
+      width: 100%;
+    }
+  }
+}
